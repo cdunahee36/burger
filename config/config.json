@@ -10,7 +10,7 @@
     "user": "root",
     "password": "password",
     "database": "burgeregrub_db",
-    "host": "localhost",
+    "host": "https://murmuring-caverns-28563.herokuapp.com/",
     "port": 3306
 }
 }
