@@ -1,3 +1,4 @@
+//this jquery allows the app to function with the buttons
 $(document).ready(function () {
     $('.change-devour').on('click', function (event) {
         const burgeregrubId = $(this).attr('data-id');

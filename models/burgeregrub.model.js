@@ -1,4 +1,4 @@
-
+//Pulls the orm methods to this file
 var orm = require("../config/orm.js");
 
 var burgeregrub = {

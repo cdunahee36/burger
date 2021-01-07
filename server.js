@@ -11,6 +11,7 @@ app.use(express.json());
 app.engine('handlebars', bars({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 
+//pulls the controller file to here
 const routes = require('./controllers/burgeregrub.controller.js');
 app.use(routes);
 

@@ -1,4 +1,4 @@
-
+//Pulls connection
 const connection = require('./connection');
 
 const printQuestionMarks = (num) => new Array(num).fill("?").toString();
@@ -20,6 +20,8 @@ const parseSql = (obj) => {
 
     return sql.toString();
 }
+
+//Object used with methods
 
 const orm = {
     all: function (tableName, done) {

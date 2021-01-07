@@ -3,6 +3,8 @@ const router = express.Router();
 
 const burgeregrub = require('../models/burgeregrub.model');
 
+//These allow for the data to be transferred to the html
+
 router.get('/', (req, res) => {
     try {
 

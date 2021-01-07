@@ -1,4 +1,4 @@
-
+//Creates connection proper for heroku
 const mysql = require('mysql');
 const env = process.env.NODE_ENV || 'development';
 let config = require('./config.json')[env];
@@ -6,7 +6,6 @@ if (!config) {
     config = process.env.DATABASE_URL;
 }
 const connection = mysql.createConnection(config);
-
 
 connection.connect((err) => {
     if (err) {
