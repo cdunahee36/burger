@@ -17,7 +17,7 @@ router.get('/', (req, res) => {
 router.get('/add', (req, res) => {
     try {
 
-        res.render('add-burger');
+        res.render('create-burger');
     } catch {
         res.status(500).end();
     }

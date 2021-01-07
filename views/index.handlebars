@@ -10,10 +10,10 @@
         <h2>Burgers waiting to be devoured!</h2>
         <ul>
 
-            {{#each burgers}}
+            {{#each burgeregrubs}}
 
             {{#unless devoured}}
-            {{> burger/burger devour=true}}
+            {{> burgeregrub/burgeregrub devour=true}}
             {{/unless}}
 
             {{/each}}
@@ -23,9 +23,9 @@
     <section>
         <h2>Burgers being digested.</h2>
         <ul>
-            {{#each burgers}}
+            {{#each burgeregrubs}}
             {{#if devoured}}
-            {{> burger/burger devour=false}}
+            {{> burgeregrub/burgeregrub devour=false}}
             {{/if}}
             {{/each}}
         </ul>
