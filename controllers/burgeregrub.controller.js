@@ -21,7 +21,6 @@ router.get('/add', (req, res) => {
 
         res.render('add-burger');
     } catch {
-        console.log('got error')
         res.status(500).end();
     }
 });
