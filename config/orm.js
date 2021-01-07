@@ -1,3 +1,4 @@
+
 const connection = require('./connection');
 
 const printQuestionMarks = (num) => new Array(num).fill("?").toString();
@@ -48,7 +49,6 @@ const orm = {
             done(result);
         });
     },
-   
     update: function (table, objColVals, condition, cb) {
         var queryString = "UPDATE " + table;
 

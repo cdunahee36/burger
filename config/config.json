@@ -2,7 +2,7 @@
   "development": {
       "user": "root",
       "password": "password",
-      "database": "burgers_db",
+      "database": "burgeregrub_db",
       "host": "localhost",
       "port": 3306
   }

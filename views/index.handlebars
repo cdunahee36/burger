@@ -1,13 +1,13 @@
-<h1>Eat-A-Burger!</h1>
-<h1>Please, Remember to tip your Waitstaff!</h1>
+<h1>Create a Burger!</h1>
+<h1>Remember to leave a tip!</h1>
 <aside>
     <nav>
-        <a href="/add">Add Burger</a>
+        <a href="/add">Create Burger</a>
     </nav>
 </aside>
 <main>
     <section>
-        <h2>Burgers waiting to be devoured!</h2>
+        <h2>Eat Burgers Here!</h2>
         <ul>
 
             {{#each burgeregrubs}}
@@ -21,7 +21,7 @@
     </section>
 
     <section>
-        <h2>Burgers being digested.</h2>
+        <h2>These Burgers Are Gone.</h2>
         <ul>
             {{#each burgeregrubs}}
             {{#if devoured}}
